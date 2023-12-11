@@ -1,0 +1,87 @@
+#loginBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginText {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 
+        -1px -1px 0 black,  
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.logo{
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+}
+
+.input-styled {
+    border: 2px solid #BA56CA;
+    border-radius: 10px;
+    padding: 10px;
+    width: 160px;
+    float: left;
+}
+
+.toggle-password {
+    cursor: pointer;
+    user-select: none;
+    margin-left: -30px;
+}
+
+
+
+.input-styled {
+    border: 2px solid #BA56CA;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+
+.input-styled:focus,
+.input-styled:active {
+    outline: none;
+    border-color: #BA56CA;
+}
+
+.signup {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 
+        -1px -1px 0 black,  
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+
+    border-bottom: 2px solid #BA56CA;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+
+
+.body {
+    height: 100vh;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background: rgb(0, 32, 146);
+    background: -moz-linear-gradient(180deg, rgba(0, 32, 146, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(0, 32, 146, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(180deg, rgba(0, 32, 146, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#002092", endColorstr="#ffffff", GradientType=1);
+}
